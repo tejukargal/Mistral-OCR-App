@@ -83,7 +83,7 @@ Experience the power of **Mistral OCR** in action! Upload PDFs or images and ext
 To run the app, use the following command:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 ### How It Works
@@ -105,7 +105,7 @@ streamlit run app.py
 
 ## Code Overview
 
-- **app.py:**  
+- **main.py:**  
   The main Streamlit application file that contains the logic for:
   - User input handling (API key, file type, source type)
   - Document preparation (base64 encoding for local uploads)
